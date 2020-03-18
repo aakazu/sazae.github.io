@@ -7,7 +7,7 @@ def click_btn():
 root=tkinter.Tk()
 root.title("初めてのボタン")
 root.geometry("800x600")
-button=tkinter.bButton(root,text="クリックしてください",
+button=tkinter.Button(root,text="クリックしてください",
 font=("Times New Roman",24),command=click_btn)
 button.place(x=200,y=100)
 root.mainloop()
